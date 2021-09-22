@@ -1,24 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 90vw;
+}
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 100px;
+  /* 设置圆角 */
+  color: #fff;
+  cursor: pointer;
+  /* 设置光标 */
+  flex: 0.5;
+  /* 设置元素的所占页面布局 */
+  margin: 10px;
+  /* 设置每一个元素之间的间隔 */
+  position: relative;
+  -webkit-transition: all 800ms ease-in;
+  /* 过渡动画效果，非常好用 */
+}
+.panel h3 {
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.8;
+}
+.panel.active {
+  flex: 5;
+}
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
   }
-  
-  body {
-    font-family: 'Muli', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow:auto;
-    margin: 0;
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
   }
-  .container{
-      display: flex;
-      width:90vw;
-  }
-  .panel{
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-  }
+}
