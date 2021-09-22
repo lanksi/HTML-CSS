@@ -31,7 +31,6 @@ content的属性值
     maximum-scale用户可将页面放大的程序，1.0将禁止用户放大到实际尺寸之上。
 	user-scalable:是否可对页面进行缩放，no 禁止缩放
 </meta>
-
 <link>
 
 link标签中重要属性为rel 定义当前文档为被链接文档之间的关系
