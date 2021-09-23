@@ -4,13 +4,13 @@
 
 可以在VScode中安装live-server插件保证能够热更新！！
 
-![image-20210922143636165](C:\Users\11483\AppData\Roaming\Typora\typora-user-images\image-20210922143636165.png)
+![image-20210922143636165](https://raw.githubusercontent.com/lanksi/HTML-CSS/master/asstes/imgimage-20210922143636165.png)
 
 安装过后重启VScode
 
 右键项目
 
-![image-20210922143741370](C:\Users\11483\AppData\Roaming\Typora\typora-user-images\image-20210922143741370.png)
+![image-20210922143741370](https://raw.githubusercontent.com/lanksi/HTML-CSS/master/asstes/imgimage-20210922143741370.png)
 
 用live-server打开，这样就能保证热重启了
 
