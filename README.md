@@ -4,7 +4,7 @@
 
 可以在VScode中安装live-server插件保证能够热更新！！
 
-![image-20210922143636165](https://raw.githubusercontent.com/lanksi/HTML-CSS/master/asstes/imgimage-20210922143636165.png)
+![image-20210923170416094](https://raw.githubusercontent.com/lanksi/HTML-CSS/master/assets/img/image-20210923170416094.png)
 
 安装过后重启VScode
 
